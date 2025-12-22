@@ -12,9 +12,10 @@ This repository contains code and data for estimating the causal effect of remov
 ## Quick Start
 
 ```bash
-make clean  # Remove generated files and environments
 make setup  # Install dependencies
 make run    # Run analysis
+make all    # setup + run
+make clean  # Remove generated files and environments
 ```
 
 ## Pipeline
@@ -27,8 +28,6 @@ The analysis runs:
 ```
 ├── data/              # Input data
 ├── src/               # Analysis scripts
-├── models/            # Analysis outputs
-├── output/            # Figures and tables
 ├── pyproject.toml     # Python dependencies
 ├── Makefile           # Pipeline commands
 ├── README.md

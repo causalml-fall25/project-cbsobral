@@ -1,11 +1,13 @@
 # The Effect of Infrastructure Removal on Cycling Activity
 
+This repository contains code and data for estimating the causal effect of removing cycling infrastructure on cycling activity in Berlin.
+
 ## Prerequisites
 
-- **Python**: Version ≥ 3.10
-- **R**: Version ≥ 4.0
-- **uv**: [Package manager](https://docs.astral.sh/uv/) (`winget install astral-sh.uv`)
-- **Make**: `winget install GnuWin32.Make` (Windows) 
+- Python: Version ≥ 3.10
+- R: Version ≥ 4.0
+- uv: [Package manager](https://docs.astral.sh/uv/) (`winget install astral-sh.uv`)
+- Make: `winget install GnuWin32.Make` (Windows) 
 
 ## Quick Start
 

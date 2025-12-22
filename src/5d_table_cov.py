@@ -1,5 +1,5 @@
 """
-Create LaTeX table showing covariate balance between treated and top donors.
+create latex table showing characteristics treated and top donors
 outputs: output/tables/donor_characteristics.tex
 """
 
@@ -9,6 +9,7 @@ from pathlib import Path
 
 # -- PARAMETERS --
 SAVE = True
+
 
 # -- SETUP --
 input_dir = Path("models")

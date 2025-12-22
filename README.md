@@ -25,16 +25,16 @@ The analysis runs:
 ## Project Structure
 
 ```
+├── data/              # Input data
+├── src/               # Analysis scripts
+├── models/            # Analysis outputs
+├── output/            # Figures and tables
 ├── pyproject.toml     # Python dependencies
-├── uv.lock            # Python lock file
-├── renv.R             # R setup script
-├── renv.lock          # R lock file
 ├── Makefile           # Pipeline commands
 ├── README.md
-├── src/               # Analysis scripts
-├── data/              # Input data
-├── models/            # Analysis outputs
-└── output/            # Figures and tables
+├── renv.R             # R setup script
+├── renv.lock          # R lock file
+└── uv.lock            # Python lock file
 ```
 
 ## Notes

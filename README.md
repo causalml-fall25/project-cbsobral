@@ -34,6 +34,7 @@ The analysis runs:
 ├── renv.R             # R setup script
 ├── renv.lock          # R lock file
 └── uv.lock            # Python lock file
+└── writeup.pdf           
 ```
 
 ## Notes

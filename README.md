@@ -38,5 +38,6 @@ The analysis runs:
 ```
 
 ## Notes
+- All commands should be run from the project root directory
 - Pre-processed data files are provided in `data/`; raw Strava Metro data cannot be redistributed due to licensing restrictions
 - By default, `TEST = TRUE` in `src/4_ascm.R` for fast testing (10 donors, 2 placebos); set `TEST = FALSE` for full analysis with all donors and 50 placebos 
